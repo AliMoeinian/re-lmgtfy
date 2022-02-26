@@ -1,0 +1,77 @@
+#googlehere {
+    width: 90%;
+    font-size: 120%;
+    background-color: #C8E6C9;
+    color: #727272;
+    border-color: #000000;
+    border-style: solid;
+    padding: 5px;
+}
+
+#urlhere {
+    width: 90%;
+    font-size: 120%;
+    text-decoration: underline;
+    background-color: #C8E6C9;
+    color: #727272;
+    border-color: #000000;
+    border-style: solid;
+    padding: 5px;
+
+}
+
+body{
+   background: linear-gradient(to top, #66ffcc -2%, #cc66ff 101%);
+   font-family: 'Roboto', sans-serif;
+}
+
+ body center {
+    font-size: 100%;
+    line-height: 90%;
+    border-style: solid;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+#tut {
+    font-size: 150%;
+    color: #212121;
+}
+
+#googlehere {
+    border-radius: 10px;
+}
+
+#urlhere {
+    border-radius: 10px;
+}
+
+html body center {
+    border-radius: 30px;
+}
+
+center {
+    margin-top: 20%;
+    animation: mymove 5s infinite;
+    border: 0px;
+}
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px #004d00;}
+}
+center:hover {
+  cursor: pointer;
+}
+#copymsg{
+  padding: 5px;
+  font-size:20px;
+  background: -webkit-linear-gradient(#ff3300, #801a00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+::selection{
+
+  color: #ff0066;
+
+}
